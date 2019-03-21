@@ -13,6 +13,8 @@
 		FA3848A72243E93F00490A87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3848A62243E93F00490A87 /* Assets.xcassets */; };
 		FA3848AA2243E93F00490A87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3848A82243E93F00490A87 /* LaunchScreen.storyboard */; };
 		FA3848B22243E97300490A87 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3848B12243E97300490A87 /* Coordinator.swift */; };
+		FA3848B52243FF5100490A87 /* UIView+gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3848B42243FF5100490A87 /* UIView+gradient.swift */; };
+		FA3848B82243FFDD00490A87 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3848B72243FFDD00490A87 /* Config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		FA3848A92243E93F00490A87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA3848AB2243E93F00490A87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA3848B12243E97300490A87 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		FA3848B42243FF5100490A87 /* UIView+gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+gradient.swift"; sourceTree = "<group>"; };
+		FA3848B72243FFDD00490A87 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 		FA38489E2243E93D00490A87 /* CryptoWallet */ = {
 			isa = PBXGroup;
 			children = (
+				FA3848B62243FFCD00490A87 /* Config */,
+				FA3848B32243FF3600490A87 /* Extensions */,
 				FA38489F2243E93D00490A87 /* AppDelegate.swift */,
 				FA3848B12243E97300490A87 /* Coordinator.swift */,
 				FA3848A12243E93D00490A87 /* ViewController.swift */,
@@ -86,6 +92,22 @@
 				FA3848AB2243E93F00490A87 /* Info.plist */,
 			);
 			path = CryptoWallet;
+			sourceTree = "<group>";
+		};
+		FA3848B32243FF3600490A87 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FA3848B42243FF5100490A87 /* UIView+gradient.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FA3848B62243FFCD00490A87 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				FA3848B72243FFDD00490A87 /* Config.swift */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +241,8 @@
 			files = (
 				FA3848A22243E93D00490A87 /* ViewController.swift in Sources */,
 				FA3848A02243E93D00490A87 /* AppDelegate.swift in Sources */,
+				FA3848B82243FFDD00490A87 /* Config.swift in Sources */,
+				FA3848B52243FF5100490A87 /* UIView+gradient.swift in Sources */,
 				FA3848B22243E97300490A87 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
