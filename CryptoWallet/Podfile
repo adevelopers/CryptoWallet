@@ -1,0 +1,13 @@
+platform :ios, '12.0'
+
+target 'CryptoWallet' do
+
+  use_frameworks!
+
+  pod 'Charts'
+  pod 'KKExtensions'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'Then'
+
+end

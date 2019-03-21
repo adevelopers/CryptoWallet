@@ -1,0 +1,39 @@
+PODS:
+  - Charts (3.2.2):
+    - Charts/Core (= 3.2.2)
+  - Charts/Core (3.2.2)
+  - KKExtensions (0.6)
+  - RxAtomic (4.4.1)
+  - RxCocoa (4.4.1):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.1):
+    - RxAtomic (~> 4.4)
+  - Then (2.4.0)
+
+DEPENDENCIES:
+  - Charts
+  - KKExtensions
+  - RxCocoa
+  - RxSwift
+  - Then
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Charts
+    - KKExtensions
+    - RxAtomic
+    - RxCocoa
+    - RxSwift
+    - Then
+
+SPEC CHECKSUMS:
+  Charts: f69cf0518b6d1d62608ca504248f1bbe0b6ae77e
+  KKExtensions: 8416ff20475a161d05c99c91c6aa09e6a0558d59
+  RxAtomic: f8d6adc1ccb87a767811269e4875887bc74dbf19
+  RxCocoa: 2f35a76bf8887872e28a1914112395b11b8e0e64
+  RxSwift: 92fcf68dfef21f3e2ab1965363d9e7b3d787597e
+  Then: 71866660c7af35a7343831f7668e7cd2b62ee0f2
+
+PODFILE CHECKSUM: 0e2a55a3f8778f68cd76ef6e673ac227027c66f8
+
+COCOAPODS: 1.6.0.beta.2
