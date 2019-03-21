@@ -1,8 +1,15 @@
 PODS:
+  - Alamofire (4.8.1)
   - Charts (3.2.2):
     - Charts/Core (= 3.2.2)
   - Charts/Core (3.2.2)
   - KKExtensions (0.6)
+  - Moya (12.0.1):
+    - Moya/Core (= 12.0.1)
+  - Moya/Core (12.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.0)
+  - Result (4.1.0)
   - RxAtomic (4.4.1)
   - RxCocoa (4.4.1):
     - RxSwift (~> 4.0)
@@ -13,27 +20,34 @@ PODS:
 DEPENDENCIES:
   - Charts
   - KKExtensions
+  - Moya
   - RxCocoa
   - RxSwift
   - Then
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Alamofire
     - Charts
     - KKExtensions
+    - Moya
+    - Result
     - RxAtomic
     - RxCocoa
     - RxSwift
     - Then
 
 SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
   Charts: f69cf0518b6d1d62608ca504248f1bbe0b6ae77e
   KKExtensions: 8416ff20475a161d05c99c91c6aa09e6a0558d59
+  Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   RxAtomic: f8d6adc1ccb87a767811269e4875887bc74dbf19
   RxCocoa: 2f35a76bf8887872e28a1914112395b11b8e0e64
   RxSwift: 92fcf68dfef21f3e2ab1965363d9e7b3d787597e
   Then: 71866660c7af35a7343831f7668e7cd2b62ee0f2
 
-PODFILE CHECKSUM: 0e2a55a3f8778f68cd76ef6e673ac227027c66f8
+PODFILE CHECKSUM: be850439164b54b767fc3b4e81e6838dfee389d2
 
 COCOAPODS: 1.6.0.beta.2
