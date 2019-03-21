@@ -15,6 +15,8 @@
 		FA3848B22243E97300490A87 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3848B12243E97300490A87 /* Coordinator.swift */; };
 		FA3848B52243FF5100490A87 /* UIView+gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3848B42243FF5100490A87 /* UIView+gradient.swift */; };
 		FA3848B82243FFDD00490A87 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3848B72243FFDD00490A87 /* Config.swift */; };
+		FA3848BC224424D100490A87 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3848BB224424D100490A87 /* API.swift */; };
+		FA3848BE2244290A00490A87 /* CryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3848BD2244290A00490A87 /* CryptoService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		FA3848B12243E97300490A87 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		FA3848B42243FF5100490A87 /* UIView+gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+gradient.swift"; sourceTree = "<group>"; };
 		FA3848B72243FFDD00490A87 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		FA3848BB224424D100490A87 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		FA3848BD2244290A00490A87 /* CryptoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,7 @@
 				FA3848B62243FFCD00490A87 /* Config */,
 				FA3848B32243FF3600490A87 /* Extensions */,
 				FA38489F2243E93D00490A87 /* AppDelegate.swift */,
+				FA3848BA224424BF00490A87 /* Services */,
 				FA3848B12243E97300490A87 /* Coordinator.swift */,
 				FA3848A12243E93D00490A87 /* ViewController.swift */,
 				FA3848A62243E93F00490A87 /* Assets.xcassets */,
@@ -108,6 +113,15 @@
 				FA3848B72243FFDD00490A87 /* Config.swift */,
 			);
 			path = Config;
+			sourceTree = "<group>";
+		};
+		FA3848BA224424BF00490A87 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FA3848BB224424D100490A87 /* API.swift */,
+				FA3848BD2244290A00490A87 /* CryptoService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,8 +223,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CryptoWallet/Pods-CryptoWallet-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
 				"${BUILT_PRODUCTS_DIR}/KKExtensions/KKExtensions.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
@@ -220,8 +237,11 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KKExtensions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
@@ -243,7 +263,9 @@
 				FA3848A02243E93D00490A87 /* AppDelegate.swift in Sources */,
 				FA3848B82243FFDD00490A87 /* Config.swift in Sources */,
 				FA3848B52243FF5100490A87 /* UIView+gradient.swift in Sources */,
+				FA3848BC224424D100490A87 /* API.swift in Sources */,
 				FA3848B22243E97300490A87 /* Coordinator.swift in Sources */,
+				FA3848BE2244290A00490A87 /* CryptoService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
