@@ -18,6 +18,9 @@
 		FA3848BC224424D100490A87 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3848BB224424D100490A87 /* API.swift */; };
 		FA3848BE2244290A00490A87 /* CryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3848BD2244290A00490A87 /* CryptoService.swift */; };
 		FA3848C022442AFF00490A87 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3848BF22442AFF00490A87 /* Bar.swift */; };
+		FA3848C322444CD600490A87 /* PairsPickersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3848C222444CD600490A87 /* PairsPickersView.swift */; };
+		FA3848C5224456A600490A87 /* PairsPickersView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3848C4224456A600490A87 /* PairsPickersView+Rx.swift */; };
+		FA3848C722445CFF00490A87 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3848C622445CFF00490A87 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		FA3848BB224424D100490A87 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		FA3848BD2244290A00490A87 /* CryptoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoService.swift; sourceTree = "<group>"; };
 		FA3848BF22442AFF00490A87 /* Bar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
+		FA3848C222444CD600490A87 /* PairsPickersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairsPickersView.swift; sourceTree = "<group>"; };
+		FA3848C4224456A600490A87 /* PairsPickersView+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PairsPickersView+Rx.swift"; sourceTree = "<group>"; };
+		FA3848C622445CFF00490A87 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,11 +94,12 @@
 		FA38489E2243E93D00490A87 /* CryptoWallet */ = {
 			isa = PBXGroup;
 			children = (
+				FA38489F2243E93D00490A87 /* AppDelegate.swift */,
 				FA3848B62243FFCD00490A87 /* Config */,
 				FA3848B32243FF3600490A87 /* Extensions */,
-				FA38489F2243E93D00490A87 /* AppDelegate.swift */,
 				FA3848B9224423DA00490A87 /* Models */,
 				FA3848BA224424BF00490A87 /* Services */,
+				FA3848C122444C1900490A87 /* Components */,
 				FA3848B12243E97300490A87 /* Coordinator.swift */,
 				FA3848A12243E93D00490A87 /* ViewController.swift */,
 				FA3848A62243E93F00490A87 /* Assets.xcassets */,
@@ -133,6 +140,16 @@
 				FA3848BD2244290A00490A87 /* CryptoService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		FA3848C122444C1900490A87 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FA3848C222444CD600490A87 /* PairsPickersView.swift */,
+				FA3848C4224456A600490A87 /* PairsPickersView+Rx.swift */,
+				FA3848C622445CFF00490A87 /* CollectionViewCell.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,13 +288,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA3848A22243E93D00490A87 /* ViewController.swift in Sources */,
+				FA3848C322444CD600490A87 /* PairsPickersView.swift in Sources */,
 				FA3848C022442AFF00490A87 /* Bar.swift in Sources */,
 				FA3848A02243E93D00490A87 /* AppDelegate.swift in Sources */,
 				FA3848B82243FFDD00490A87 /* Config.swift in Sources */,
 				FA3848B52243FF5100490A87 /* UIView+gradient.swift in Sources */,
 				FA3848BC224424D100490A87 /* API.swift in Sources */,
 				FA3848B22243E97300490A87 /* Coordinator.swift in Sources */,
+				FA3848C5224456A600490A87 /* PairsPickersView+Rx.swift in Sources */,
 				FA3848BE2244290A00490A87 /* CryptoService.swift in Sources */,
+				FA3848C722445CFF00490A87 /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
